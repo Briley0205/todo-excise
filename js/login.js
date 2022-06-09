@@ -44,6 +44,7 @@ function logOutSubmit (event) {
 }
 
 logOutForm.addEventListener("click", logOutSubmit);
+logInForm.addEventListener("submit", logInSubmit);
 
 
 
